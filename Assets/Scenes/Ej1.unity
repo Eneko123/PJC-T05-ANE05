@@ -185,7 +185,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: ac357d6afe3e65e4b98c2ee952c15107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -226,7 +226,7 @@ Transform:
   m_GameObject: {fileID: 224813392}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -383,6 +383,12 @@ GameObject:
   - component: {fileID: 1099130166}
   - component: {fileID: 1099130167}
   - component: {fileID: 1099130165}
+  - component: {fileID: 1099130173}
+  - component: {fileID: 1099130172}
+  - component: {fileID: 1099130171}
+  - component: {fileID: 1099130170}
+  - component: {fileID: 1099130169}
+  - component: {fileID: 1099130168}
   m_Layer: 0
   m_Name: Calculador
   m_TagString: Untagged
@@ -447,6 +453,78 @@ MonoBehaviour:
   m_DefaultActionMap: Ejercicios
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1099130168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099130164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f757425cb5d544f89c8e90d0b20782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicoi7
+--- !u!114 &1099130169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099130164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24ed21b4091ebbf41bd8ee669695a2f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio6
+--- !u!114 &1099130170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099130164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51dd288c6a4b6ab499c595db221c5f29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio5
+--- !u!114 &1099130171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099130164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a68096f0163a3f4e937d8de4aef729b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio4
+--- !u!114 &1099130172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099130164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55160fe399465a347958fcbe3ba142a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio3
+--- !u!114 &1099130173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099130164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c09e1759c8fdf4db0689f580070c17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ejercicio2
 --- !u!1 &1860723612
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,7 +561,7 @@ Camera:
   m_GameObject: {fileID: 1860723612}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -534,7 +612,7 @@ Transform:
   m_GameObject: {fileID: 1860723612}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

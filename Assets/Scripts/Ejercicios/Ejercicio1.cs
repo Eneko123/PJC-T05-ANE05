@@ -8,6 +8,8 @@ public class Ejercicio1 : MonoBehaviour
     private float[] numeros;
     private int n = 1000000;
 
+    private bool Ej1 = false;
+
     void Start()
     {
         numeros = new float[n];
@@ -17,9 +19,9 @@ public class Ejercicio1 : MonoBehaviour
         }
     }
 
-    private void On_01(InputValue value)
+    private void Update()
     {
-        if (value.isPressed)
+        if (Ej1)
         {
             for (int i = 0; i < numeros.Length; i++)
             {
@@ -28,6 +30,14 @@ public class Ejercicio1 : MonoBehaviour
                 Coseno(i);
                 Seno(i);
             }
+        }
+    }
+
+    private void On_01(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            Ej1 = !Ej1;
             Debug.Log("Boton 1 presionado");
         }
     }
